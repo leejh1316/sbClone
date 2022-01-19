@@ -1,0 +1,26 @@
+.mainCon {
+  width: 100%;
+}
+.titleCon {
+  height: 646px;
+  overflow-x: hidden;
+  background-image: url("../img/2022_NewYear_main_bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.titleInner {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.titleTextImg {
+  opacity: 1;
+  width: 26.2%;
+  padding: 5.1% 0 0 2.6%;
+}
+.slogan {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
