@@ -1,0 +1,55 @@
+.winterWrapCon {
+  position: relative;
+  background: url("../img/fav_prod_bg_new.jpg") center center fixed;
+  background-size: auto 100%;
+  padding: 0;
+  height: 800px;
+}
+.winterMainArea {
+  position: absolute;
+  width: 1280px;
+  left: 50%;
+  margin-left: -640px;
+  top: 0;
+}
+.winterImg01 {
+  position: absolute;
+  background: url("../img/2022_NewYear_pick_img.png") no-repeat center;
+  width: 672px;
+  height: 458px;
+  top: 100px;
+  right: -10px;
+  z-index: 6;
+}
+.winterTextImg01 {
+  position: absolute;
+  height: 240px;
+  left: 200px;
+  top: 120px;
+  width: 258px;
+  z-index: 7;
+  overflow: hidden;
+}
+.winterTextImg02 {
+  height: 156px;
+  left: 92px;
+  overflow: hidden;
+  position: absolute;
+  top: 370px;
+  width: 362px;
+  z-index: 7;
+}
+.winterExtent {
+  position: absolute;
+  width: 125px;
+  height: 38px;
+  border-width: 0;
+  border: solid 2px white;
+  border-radius: 9px;
+  left: 328px;
+  top: 570px;
+  text-align: center;
+  font-size: 11pt;
+  line-height: 38px;
+  z-index: 6;
+}

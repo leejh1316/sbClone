@@ -1,0 +1,102 @@
+.rewardCon {
+  position: relative;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #1e3932;
+}
+.rewardWrap {
+  position: relative;
+  display: grid;
+  width: 92%;
+  height: 170px;
+  margin: 0px auto;
+  grid-template-columns: 4% 17% 3% 70% 4%;
+}
+.sbRewardLogo {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.sbRewardLogoImg {
+  display: block;
+  width: 170px;
+  height: 150px;
+  margin: auto;
+  object-fit: cover;
+}
+.rewardContantArea {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 58% 2% 40%;
+  color: white;
+}
+.topRewardArea {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.topRewardHead {
+  margin: 0px 0px 10px 0px;
+  line-height: 36px;
+  font-size: 24pt;
+}
+.topRewardContent {
+  display: inline-block;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+.topRewardBtns {
+  position: relative;
+  float: right;
+  bottom: 40px;
+}
+.topRewardSingUpBtn {
+  display: inline-block;
+  width: 92px;
+  height: 32px;
+  font-size: 11pt;
+  line-height: 30px;
+  background-color: #00704a;
+  border: solid 2px #00704a;
+  border-radius: 7px;
+  text-align: center;
+}
+.topRewardSingInBtn {
+  text-align: center;
+  font-size: 11pt;
+  width: 79px;
+  height: 32px;
+  line-height: 30px;
+  border: solid 2px #ffffff;
+  border-radius: 7px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.rewardLine {
+  border-top: solid 2px #344c46;
+}
+.bottomRewardContent {
+  margin: 15px 0px 0px 0px;
+}
+.bottomRewardArea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bottomRewardBtn {
+  position: relative;
+  display: inline-block;
+  float: right;
+  bottom: 42px;
+  font-size: 13pt;
+  width: 180px;
+  height: 34px;
+  text-align: center;
+  border: solid 2px white;
+  border-radius: 7px;
+  line-height: 33px;
+}

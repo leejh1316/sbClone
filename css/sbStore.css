@@ -1,0 +1,56 @@
+.storeCon {
+  background: url("../img/store_bg.jpg");
+  background-size: 100% auto;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.storeImg01 {
+  position: absolute;
+  height: 228px;
+  top: 149px;
+  left: 390px;
+  z-index: 4;
+}
+.storeImg02 {
+  position: absolute;
+  height: 312px;
+  top: 0;
+  left: 160px;
+  z-index: 3;
+}
+.storeImg03 {
+  position: absolute;
+  height: 142px;
+  top: -60px;
+  left: 520px;
+  z-index: 3;
+}
+.storeImg04 {
+  position: absolute;
+  height: 102px;
+  right: 30px;
+  top: 298px;
+  width: 230px;
+  z-index: 4;
+}
+.storeTextImg01 {
+  position: absolute;
+  height: 54px;
+  right: 149px;
+  overflow: hidden;
+  top: 100px;
+  width: 385px;
+  z-index: 4;
+}
+.storeTextImg02 {
+  position: absolute;
+  height: 61px;
+  right: 168px;
+  overflow: hidden;
+  top: 168px;
+  width: 366px;
+  z-index: 4;
+}

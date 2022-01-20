@@ -1,0 +1,40 @@
+.magazineCon {
+  position: relative;
+  height: 400px;
+  background: url("../img/reserve_bg_pc.png") 50% 100% no-repeat;
+  overflow: hidden;
+}
+.magazineTitle {
+  position: relative;
+  padding-top: 135px;
+  padding-left: 55px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+.mamazineImgs {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 50%;
+  margin-right: -486px;
+}
+.magazineExtent {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 340px;
+  padding-top: 40px;
+}
+.magazineExtentDiv {
+  height: 34px;
+  width: 125px;
+  border: solid 2px #000;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 34px;
+}

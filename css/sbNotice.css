@@ -1,0 +1,60 @@
+.noticeCon {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 62px;
+}
+.noticeArea {
+  width: 50%;
+  color: white;
+  background-color: rgb(17, 17, 17);
+}
+.noticeTextInner {
+  margin-top: 20px;
+  width: 70%;
+  float: right;
+}
+.noticeHead {
+  display: inline-block;
+}
+.noticecontent {
+  display: inline-block;
+  color: white;
+  width: 286px;
+}
+.noticecontentSetColor {
+  color: white;
+}
+.promotionArea {
+  width: 50%;
+  background-color: rgb(246, 245, 239);
+}
+.promotionInner {
+  width: 60%;
+  height: 32px;
+  margin: 20px auto 0px 8%;
+}
+.promotionImgs {
+  display: block;
+  left: 30px;
+  height: 100%;
+}
+.promotionTextImg {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  width: 129px;
+  height: 16px;
+  background-size: cover;
+  background-image: url("../img/prom_ttl_b.png");
+  background-repeat: no-repeat;
+}
+.promotionExtendImg {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  background-size: cover;
+  background-image: url("../img/btn_prom_down.png");
+  background-repeat: no-repeat;
+}

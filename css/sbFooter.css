@@ -1,0 +1,48 @@
+footer {
+  padding: 35px 0px 35px 0px;
+  background: #2c2a29;
+  width: 100%;
+  position: relative;
+}
+.footerMenuCon {
+  position: relative;
+  display: block;
+  width: 1182px;
+  height: 214px;
+  left: 50%;
+  margin-left: -591px;
+  background: url("../img/footer_logo.png") right 8px no-repeat;
+}
+.footerMenuGird {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 19% 19% 19% 19% 19% 5%;
+  grid-template-rows: 100%;
+}
+.footerColumns {
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+}
+.footerAtag {
+  font-size: 10pt;
+}
+.footerAwards {
+  width: 100%;
+  height: 90px;
+  margin-top: 30px;
+  padding-top: 15px;
+  background: #282828;
+}
+.footerAwardsInner {
+  width: 780px;
+  height: 43px;
+  margin: 0 auto;
+}
+.copyright {
+  width: 100%;
+  height: 180px;
+  padding-top: 25px;
+}

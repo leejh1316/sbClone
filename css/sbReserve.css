@@ -1,0 +1,72 @@
+.reserveCon {
+  position: relative;
+  background-image: url("../img/reserve_2022_hawaii_kau_bg_v2.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  overflow: hidden;
+  height: 400px;
+}
+.reserveTitle {
+  position: relative;
+  max-width: 1080px;
+  width: 100%;
+  padding-top: 97px;
+  z-index: 5;
+  margin: 0 auto;
+}
+.scBackGround {
+  position: absolute;
+  display: block;
+  max-width: none;
+  width: auto;
+  object-fit: cover;
+  margin: 0;
+  bottom: 0;
+  right: -7%;
+}
+.scBackGround::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 3%;
+  background-position: center top;
+  content: "";
+  width: 539px;
+  height: 400px;
+  background-image: url("../img/reserve_2022_hawaii_kau_left_obj_v2.png");
+  z-index: 2;
+}
+.scBackGround::after {
+  position: absolute;
+  display: block;
+  top: 0%;
+  right: 4%;
+  background-position: center top;
+  content: "";
+  width: 509px;
+  height: 400px;
+  background-image: url("../img/reserve_2022_hawaii_kau_right_obj_v2.png");
+  z-index: 2;
+}
+.reserveExtent {
+  position: relative;
+  z-index: 0;
+  max-width: 1080px;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 278px;
+  box-sizing: border-box;
+}
+.reserveBtnDiv {
+  height: 34px;
+  width: 125px;
+  border: solid 2px #b9813e;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 34px;
+}
+.reserveExtentBtn {
+  color: #b9813e;
+}

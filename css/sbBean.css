@@ -1,0 +1,40 @@
+.beanCon {
+  position: relative;
+  width: 100vw;
+  height: 572px;
+  background-image: url("../img/2022_NewYear_bean_bg.png");
+  background-position: 70% center;
+  background-size: cover;
+}
+.beanMainArea {
+  position: relative;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+.beanImgDiv {
+  position: absolute;
+  top: 14%;
+  left: 13.5%;
+  max-width: 360px;
+  width: 33.5%;
+}
+.beanContent {
+  position: absolute;
+  top: 32%;
+  right: 8.4%;
+  max-width: 405px;
+  width: 37.7%;
+}
+.beanBtn {
+  width: 125px;
+  height: 38px;
+  margin-top: 39px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 38px;
+  border: solid 2px #453d3d;
+}
+.beanContentExtent {
+  color: #000;
+}
