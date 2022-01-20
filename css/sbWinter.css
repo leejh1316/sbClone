@@ -53,3 +53,10 @@
   line-height: 38px;
   z-index: 6;
 }
+.stoderInner {
+  left: 50%;
+  margin-left: -640px;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}

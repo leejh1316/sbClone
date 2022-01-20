@@ -65,6 +65,9 @@
   border-radius: 7px;
   text-align: center;
 }
+.topRewardSingUpBtn:hover {
+  text-decoration: underline;
+}
 .topRewardSingInBtn {
   text-align: center;
   font-size: 11pt;
@@ -75,6 +78,9 @@
   border-radius: 7px;
   margin-left: 5px;
   display: inline-block;
+}
+.topRewardSingInBtn:hover {
+  text-decoration: underline;
 }
 .rewardLine {
   border-top: solid 2px #344c46;
@@ -99,4 +105,7 @@
   border: solid 2px white;
   border-radius: 7px;
   line-height: 33px;
+}
+.bottomRewardBtn:hover {
+  text-decoration: underline;
 }

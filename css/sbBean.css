@@ -13,6 +13,7 @@
   margin: 0 auto;
 }
 .beanImgDiv {
+  opacity: 0;
   position: absolute;
   top: 14%;
   left: 13.5%;
@@ -20,6 +21,7 @@
   width: 33.5%;
 }
 .beanContent {
+  opacity: 0;
   position: absolute;
   top: 32%;
   right: 8.4%;
@@ -37,4 +39,32 @@
 }
 .beanContentExtent {
   color: #000;
+}
+.beanImgStartAnime {
+  animation: rightInFade 1.6s;
+  animation-fill-mode: both;
+}
+.beanContentStartAnime {
+  animation: leftInFade 1.6s;
+  animation-fill-mode: both;
+}
+@keyframes leftInFade {
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  from {
+    opacity: 0;
+    transform: translateX(190px);
+  }
+}
+@keyframes rightInFade {
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  from {
+    opacity: 0;
+    transform: translateX(-190px);
+  }
 }

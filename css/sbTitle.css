@@ -20,7 +20,6 @@
 }
 
 .titleTextImg {
-  opacity: 1;
   width: 28%;
   padding: 5.1% 0 0 2.6%;
 }
@@ -28,6 +27,10 @@
   width: 90%;
   margin: 0;
   padding: 0;
+  opacity: 0;
+  animation: fade 0.4s;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
 }
 .titleBtnSlogan {
   position: relative;
@@ -40,6 +43,10 @@
   margin-top: 50px;
   text-align: center;
   box-sizing: border-box;
+  opacity: 0;
+  animation: fade 0.4s;
+  animation-delay: 2.4s;
+  animation-fill-mode: both;
 }
 .titleBtnSloganAtag {
   display: block;
@@ -48,6 +55,12 @@
   height: 100%;
   font-size: 15px;
   color: rgb(79, 113, 97);
+  transition: ease 0.5s;
+}
+.titleBtnSloganAtag:hover {
+  background-color: rgb(79, 113, 97);
+  color: white;
+  text-decoration: underline;
 }
 .titleImgs {
   position: absolute;
@@ -59,18 +72,30 @@
   top: 260px;
   left: 30px;
   display: inline-block;
+  opacity: 0;
+  animation: fade 0.4s;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
 }
 .titleImgDiv02 {
   position: absolute;
-  top: 30px;
-  left: 270px;
+  top: 100px;
+  left: 360px;
   display: inline-block;
+  opacity: 0;
+  animation: fade 0.4s;
+  animation-delay: 1.4s;
+  animation-fill-mode: both;
 }
 .titleImgDiv03 {
   position: absolute;
-  top: 230px;
-  left: 770px;
+  top: 210px;
+  left: 790px;
   display: inline-block;
+  opacity: 0;
+  animation: fade 0.4s;
+  animation-delay: 1.9s;
+  animation-fill-mode: both;
 }
 .titleMenuImg01 {
   object-fit: cover;
@@ -81,4 +106,13 @@
 }
 .titleMenuImg03 {
   object-fit: cover;
+}
+/* 애니메이션 */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
