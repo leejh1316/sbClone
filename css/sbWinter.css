@@ -22,6 +22,7 @@
   z-index: 6;
 }
 .winterTextImg01 {
+  opacity: 0;
   position: absolute;
   height: 240px;
   left: 200px;
@@ -31,6 +32,7 @@
   overflow: hidden;
 }
 .winterTextImg02 {
+  opacity: 0;
   height: 156px;
   left: 92px;
   overflow: hidden;
@@ -59,4 +61,28 @@
   position: absolute;
   top: 0;
   width: 1280px;
+}
+.winterFadeIn {
+  animation: winterFadeIn 2.3s;
+  animation-fill-mode: both;
+}
+.winterFadeOut {
+  animation: winterFadeOut 2.3s;
+  animation-fill-mode: both;
+}
+@keyframes winterFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes winterFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

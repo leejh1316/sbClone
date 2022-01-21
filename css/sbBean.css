@@ -19,6 +19,7 @@
   left: 13.5%;
   max-width: 360px;
   width: 33.5%;
+  z-index: 7;
 }
 .beanContent {
   opacity: 0;
@@ -40,31 +41,69 @@
 .beanContentExtent {
   color: #000;
 }
-.beanImgStartAnime {
+.beanImgStartInAnime {
   animation: rightInFade 1.6s;
-  animation-fill-mode: both;
+  animation-fill-mode: forwards;
 }
-.beanContentStartAnime {
-  animation: leftInFade 1.6s;
-  animation-fill-mode: both;
+.beanContentStartInAnime {
+  animation: leftInFade 1.8s;
+  animation-fill-mode: forwards;
 }
+
+.beanImgStartOutAnime {
+  animation: leftOutFade 1.8s;
+  animation-fill-mode: forwards;
+}
+.beanContentStartOutAnime {
+  animation: rightOutFade 2s;
+  animation-fill-mode: forwards;
+}
+.beanImgDiv {
+  animation-fill-mode: forwards;
+}
+.beanContent {
+  animation-fill-mode: forwards;
+}
+/* In */
 @keyframes leftInFade {
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
   from {
     opacity: 0;
-    transform: translateX(190px);
+    right: -100%;
+  }
+  to {
+    opacity: 1;
+    right: 8.4%;
   }
 }
 @keyframes rightInFade {
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
   from {
     opacity: 0;
-    transform: translateX(-190px);
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 13.5%;
+  }
+}
+/* Out */
+
+@keyframes leftOutFade {
+  from {
+    opacity: 1;
+    left: 13.5%;
+  }
+  to {
+    opacity: 0;
+    left: -100%;
+  }
+}
+@keyframes rightOutFade {
+  from {
+    opacity: 1;
+    right: 8.4%;
+  }
+  to {
+    opacity: 0;
+    right: -100%;
   }
 }

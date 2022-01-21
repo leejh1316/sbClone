@@ -20,6 +20,7 @@
   display: block;
   top: 0;
   right: 50%;
+  opacity: 0;
   margin-right: -486px;
 }
 .magazineExtent {
@@ -37,4 +38,32 @@
   border-radius: 8px;
   text-align: center;
   line-height: 34px;
+}
+
+.magazineFadeIn {
+  animation: magazineFadeIn 2.3s;
+  animation-fill-mode: both;
+}
+
+.magazineFadeOut {
+  animation: magazineFadeOut 2.3s;
+  animation-fill-mode: both;
+}
+
+@keyframes magazineFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes magazineFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

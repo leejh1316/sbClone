@@ -16,6 +16,7 @@
   margin: 0 auto;
 }
 .scBackGround {
+  opacity: 0;
   position: absolute;
   display: block;
   max-width: none;
@@ -69,4 +70,16 @@
 }
 .reserveExtentBtn {
   color: #b9813e;
+}
+.reserveFadeStart {
+  animation: reserveFade 5s;
+  animation-fill-mode: both;
+}
+@keyframes reserveFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
